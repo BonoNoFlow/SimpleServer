@@ -11,9 +11,12 @@ import java.util.List;
  */
 public class MusicIndex {
 
-    private final String FOLDER = "folder:";
-    private final String FILE = "file:";
+    private final String FOLDER = "directory: ";
+    private final String FILE = "file: ";
+    private final String PLAYLIST = "playlist: ";
+
     private final String MP3 = ".mp3";
+    private final String M3U = ".m3u";
 
     private String home;
 
